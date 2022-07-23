@@ -1,8 +1,21 @@
 {
   "name": "vision-camera-plugin-object-scanner",
-  "version": "1.0.0",
-  "description": "Object classification plugin for react-native-vision-camera, using Google MLKitVision",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "VisionCamera Frame Processor Plugin to detect objects using MLKit Vision Object Detector",
+  "main": "src/index.ts",
+  "react-native": "src/index",
+  "source": "src/index",
+  "files": [
+    "src",
+    "android",
+    "ios",
+    "vision-camera-object-scanner.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "bob build"
@@ -20,7 +33,6 @@
   "devDependencies": {
     "react-native-builder-bob": "^0.18.3"
   },
-  "react-native": "src/index.ts",
   "eslintIgnore": [
     "node_modules/",
     "lib/"
