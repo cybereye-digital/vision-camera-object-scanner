@@ -28,8 +28,12 @@
     "vision camera plugin",
     "object scanner"
   ],
-  "author": "Ronald A. Richardson",
+  "author": "Ronald A. Richardson <me@ron.dev> (https://github.com/cybereye-digital)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cybereye-digital/vision-camera-object-scanner/issues"
+  },
+  "homepage": "https://github.com/cybereye-digital/vision-camera-object-scanner#readme",
   "devDependencies": {
     "react-native-builder-bob": "^0.18.3"
   },
